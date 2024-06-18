@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227,227,227);
+}
+
+
+.container {
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+
+.content-section h2 {
+    padding-top: 10px;
+}
+
+.lists-container,.list-container {
+    display: flex;
+}
+
+.hb, .gl {
+    text-align: left; 
+    list-style-position: inside; 
+    padding-left: 0;
+}
+
+
+.image{
+    width: 150px;
+    height: 150px;
+    display: block; 
+
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
